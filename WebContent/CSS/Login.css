@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('home/homeImages/csm_1-kachel_1d744448d7.jpg'); /* Specify the path to your background image */
+    background-size: cover; /* Adjust the size of the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center; /* Center the background image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+.form-container{
+	
+	margin-left:1000px;
+}
+form {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #0059FF ;
+    color: white;
+    cursor: pointer;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.radio-group input[type="radio"] {
+  display: none;
+  justify-items: auto;
+  
+}
+
+.radio-group label {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  justify-content: center;
+   
+}
+
+.radio-group label:hover {
+  background-color: #46aeea;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  background-color: #0728e0;
+}
+a:visited {color:#09d1ec;}
+a:hover {color:rgb(18, 12, 138);} 
+/* Add more styles and colors as needed */

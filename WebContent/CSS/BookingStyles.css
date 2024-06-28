@@ -1,0 +1,70 @@
+/* Existing styles */
+.bus {
+    width: 600px;
+    margin: 50px auto;
+    position: relative;
+    background-color: #4CAF50; /* Green */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius:2px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #ffff80; /* White */
+    color: #333; /* Dark Gray */
+    transition: background-color 0.3s ease;
+}
+
+.seat:hover {
+    background-color: #e0e0e0;
+}
+
+.seat.disabled {
+    background-color: #ff1100; /* Red */
+    color: #fff; /* White */
+    cursor: not-allowed;
+}
+
+/* Additional styles for better visualization */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the seats */
+}
+
+/* Add shadows to seats for a 3D effect */
+.seat {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #3498db;
+    
+}
+
+/* Style the selected seats differently */
+.seat.selected {
+    background-color: #3498db; /* Blue */
+    color: #fff; /* White */
+}
+
+/* Style for the Submit button */
+input[type="submit"] {
+    background-color: #3498db; /* Blue */
+    color: #fff; /* White */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9; /* Darker Blue on hover */
+}

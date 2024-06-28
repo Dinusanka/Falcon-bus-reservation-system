@@ -1,0 +1,144 @@
+@charset "ISO-8859-1";
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #d1f1f0;
+        }
+
+        input{
+            margin-top: 40px;
+            margin-bottom: 5px;
+            margin-right: 20px;
+            padding: auto;
+            width: 170px;
+            height: 35px;
+            border-radius: 10px;
+            float:right
+
+
+        }
+        .ul {
+        position: relative;
+        align-items: left;
+        margin-top: 40;
+        float: left;
+        top: 10px;
+        width: 100%;
+        background-color: #0a31f0;
+        }
+
+        
+   
+
+        li {
+  float: left;
+  
+  
+}
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-bottom:13px
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+    background-color: #130341;
+    }
+  
+
+        .li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-bottom:13px
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    .li a:hover {
+    background-color: #130341;
+    }
+  
+    
+	.copy {
+    text-align: center;
+    padding:30px
+    
+
+  }
+     	.social-icons {
+	    width: 240px;
+	    height: 45px;
+	    margin-left: 1200px;
+	    float:left;
+	    margin-top:-70px
+
+	   
+			}
+			
+			.social-text {
+	    width: 240px;
+	    height: 45px;
+	    margin-left: 1275px;
+	    float:left;
+	    margin-top:-110px
+
+	   
+			}
+        
+         .slideshow-container {
+            
+            width: 1700px;
+            height:900px;
+            margin-left: 120px;
+            border-radius: 10px;
+         
+            
+        }
+        .mySlides {
+         
+            
+          width: 1500px;
+            height:900px;
+        }
+        .Top{
+            width: auto;
+            height: 150px;
+           background-color: #52bde8;
+        }
+
+        img {
+           
+            width: 1500px;
+            height:900px;
+            
+        }
+        
+		 .link{
+		padding:30px;
+		float:left
+		 }
+
+       
+        .logo {
+            
+            width: 90px;
+            height:50px
+        }
+		
+			
+		
+
+ 
+
+.footer-content{
+ width: auto;
+ height: 100px;
+ background-color: #52bde8;
+}

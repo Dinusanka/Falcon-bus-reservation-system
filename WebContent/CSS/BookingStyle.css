@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+     body {
+            font-family: Arial, sans-serif;
+            background-color: #ccc;
+        }
+
+        .bus {
+            width: 600px;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .seat {
+            width: 40px;
+            height: 40px;
+            background-color: #ccc;
+            margin: 5px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        h2{
+        color :#ccc
+        }
+
+        .selected {
+            background-color: #00ff40; /* Change color for selected seats */
+        }
+        .seat[style*="cursor: not-allowed"] {
+    /* Add styles specific to disabled seats here */
+    background-color: #ccc;
+    /* ... Other styles ... */
+}

@@ -1,0 +1,52 @@
+/* Profile.css */
+
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff; /* White background */
+    border: 2px solid #ccc; /* Light gray border */
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+input[type="button"] {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+input[type="submit"] {
+    background-color: #008CBA; /* Blue background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #005f6b; /* Darker blue on hover */
+}
+
+a {
+    text-decoration: none;
+    color: #333; /* Dark gray text */
+}
+
+a:hover {
+    color: #555; /* Slightly darker text on hover */
+}
